@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <title>QA Dashboard</title>
+  </head>
+
+  <body style="margin:0px;padding:0px;overflow:hidden">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#" class="nav-link" data-src="http://mozilla.github.io/mozwebqa-dashboard">MozWebQA Dashboard</a></li>
+            <li><a href="#" class="nav-link" data-src="https://crash-analysis.mozilla.com/rkaiser/crash-report-tools/qa/">Firefox QA Dashboard</a></li>
+            <li><a href="#" class="nav-link" data-src="http://mozilla-b2g.github.io/b2g-dashboard/">B2G Dashboard</a></li>
+            <li><a href="#" class="nav-link" data-src="http://charts.mozilla.org/">charts.mozilla.org</a></li>
+            <li><a href="#" class="nav-link" data-src="https://dataviz.mozilla.org/views/moztrap/Results#1">Moztrap Results Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <iframe id="content-iframe" src="welcome.html" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:800px;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="800px" width="100%"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/dashboard.js"></script>
+
+</body></html>
